@@ -3,9 +3,13 @@
 
 ## Notes from Student to Grader
 
-** *When you hand in the assignment, replace this sentence with a short intro to your project-to-be-graded.  Include comments on what grading target you believe you have achieved.* **
+I believe that I desereve a Passing grade for this assignment. As i've accomplished all the requirements of pass and also the seed10 and clear functions of satisfactory. I think I should get a grade between Pass and Satisfactory but not sure if thats how the grading works. Will be satisfied with Pass tier thanks.
 
+Resources:
+https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
+https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle
 
+All I can remember for my resources.
 ## Introduction
 
 This is your second assignment for grades.

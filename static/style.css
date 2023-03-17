@@ -52,6 +52,7 @@ main {
 
 
 main form.newPicture {
+  display:none;
   position: absolute;
   right: 0.5em;
   top: 0.5em;
@@ -71,18 +72,35 @@ main form.newPicture input {
   width: 400px;
 }
 
+div {
+  display: inline;
+  max-width: 250;
+  display: flexbox;
+}
+
+.buttonsDiv {
+  display: none;
+  max-width: 100%;
+  
+}
+
+.buttons {
+  display:block;
+  margin-bottom: 10px;
+  width: 20px;
+}
 
 
 
 
 
 
-main .card {
-  display: flex;
-  flex-direction: column;
+.container img {
+  /* display: flex;
+  flex-direction: row;   */
   position: relative;
-  margin: 1px;
-  border: 1px solid black;
+  margin: 2px;
+  border: 2px solid black;
   border-radius: 4px;
   background-color: var(--lightest);
 
@@ -97,8 +115,12 @@ main .card .cardTopHalf {
   height: 100%;
 }
 
-main .card.editCard .cardTopHalf {
-  height: 66%;
+.edit {
+  transform: scale(0.90);
+}
+
+.full {
+  transform: scale(1.00);
 }
 
 
@@ -146,38 +168,61 @@ main .card .filterDiv {
 
 
 
-main .card.size1 {
+.size0 {
   grid-area: span 1 / span 1;
+  width: 250px;
+  height: 250px;
 }
 
-main .card.size2 {
+.size1 {
+  grid-area: span 1 / span 1;
+  width: 260px;
+  height: 260px;
+}
+
+.size2 {
   grid-area: span 2 / span 2;
+  width: 270px;
+  height: 270px;
 }
 
-main .card.size3 {
+.size3 {
   grid-area: span 3 / span 3;
+  width: 280px;
+  height: 280px;
 }
 
-main .card.size4 {
+.size4 {
   grid-area: span 4 / span 4;
+  width: 290px;
+  height: 290px;
 }
 
-main .card.size5 {
-  grid-area: span 5 / span 5;
+.size5 {
+  width: 300px;
+  height: 300px;
 }
 
-main .card.size6 {
+.size6 {
   grid-area: span 6 / span 6;
+  width: 310px;
+  height: 310px;
 }
 
-main .card.size7 {
+.size7 {
   grid-area: span 7 / span 7;
+  width: 320px;
+  height: 320px;
 }
 
-main .card.size8 {
+.size8 {
   grid-area: span 8 / span 8;
+  width: 330px;
+  height: 330px;
 }
 
-main .card.size9 {
+.size9 {
   grid-area: span 9 / span 9;
+  width: 350px;
+  height: 350px;
 }

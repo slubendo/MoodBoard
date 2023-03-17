@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mood Jorts</title>
-  <link rel="stylesheet" href="/style.css">
-  <script src="app.js"></script>
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Jorts</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="app.js" defer></script>
 </head>
 
 <body>
   <header>
     <h1>Mood Jorts</h1>
     <form class="formNoDefault">
-      <button class="buttonAddImage">
+      <button class= "buttonAddImage">
         Add Image
+      </button>
+      <button class= "buttonFeedImage">
+        Seed10
+      </button>
+      <button class= "clear">
+        Clear
       </button>
       <button class="buttonHeaderGearIcon">
         ⚙️
@@ -24,7 +30,8 @@
   </header>
 
   <main>
-    <form class="newPicture formNoDefault displayNone">
+    <!--  formNoDefault displayNone -->
+    <form class="newPicture">
       <div>
         <input type="url" id="newPicUrl" name="newPicUrl">
       </div>
@@ -34,7 +41,7 @@
       </div>
     </form>
   </main>
-
+  
 </body>
 
 </html>
