@@ -174,7 +174,6 @@ const deleteImage = () => {
     img.style.display = "none"
 }
 
-
 const buttonsClear = () => {
     let image = document.querySelectorAll(".buttonsDiv")
     for (let i = 0; i < image.length; i++) {
@@ -344,7 +343,7 @@ const right = () => {
     }
 }
 
-
+feed()
 body.addEventListener('click', (event) => {
     console.log('target', event.target)
     console.log('currenttarget', event.currentTarget)
